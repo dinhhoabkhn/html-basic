@@ -1,5 +1,5 @@
 @font-face{
-    font-family: Lato;
+    
     src: url('../FontLato/Lato-Regular.ttf');
 }
 @font-face{
@@ -13,6 +13,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Lato;
 }
 a {
     text-decoration: none;
@@ -113,7 +114,7 @@ button span:nth-child(2){
     list-style-type: none;
     text-align: left;
     margin-left: 47px;
-    font-family: Lato;
+    
     font-size: 14px;
     letter-spacing: 0.2px;
     text-align: center;
@@ -127,7 +128,6 @@ button span:nth-child(2){
     float: left;
 }
 .right-header a{
-    font-family:Lato; 
     font-size:14px;
     letter-spacing: 0.2px;
     text-align: center;
@@ -140,7 +140,6 @@ button span:nth-child(2){
     margin-top: 20px;
     margin-left: 70%;
     text-align: center;
-    font-family: Lato;
     font-size: 14px;
     color: #00bcd4;
     background-color: rgba(0,0,0,0);
@@ -152,7 +151,6 @@ button span:nth-child(2){
     text-transform: uppercase;
 }
 .login a{
-    font-family:Lato; 
     font-size:14px;
     letter-spacing: 0.2px;
     margin-top: -100px;
@@ -169,7 +167,6 @@ button span:nth-child(2){
     margin-top: -40px;
     margin-left: 84%;
     text-align: center;
-    font-family: Lato;
     font-size: 14px;
     color: #00bcd4; 
     background-color: rgba(0,0,0,0);
@@ -246,7 +243,6 @@ button span:nth-child(2){
 .text-summer-content {
     margin-top: 94px;
     max-width: 487px;
-    font-family: Lato;
     font-size: 16px;
     line-height: 1.5;
     text-align: justify;
@@ -269,7 +265,6 @@ button span:nth-child(2){
 .see-conti p span{
     height: 100%;
     padding-left: 15px;
-    font-family: Lato;
     font-size: 14px;
     font-weight: bold;
     line-height: 1.14;
@@ -283,7 +278,7 @@ button span:nth-child(2){
     border-radius: 100px;
     border: none;
     color: white;
-    font-family: Lato;
+    
     font-size: 14px;
     font-weight: bold;
     line-height: 1.14;
@@ -356,7 +351,7 @@ button span:nth-child(2){
     border-radius: 100px;
     border: none;
     color: white;
-    font-family: Lato;
+    
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
@@ -420,7 +415,6 @@ button span:nth-child(2){
     max-width: 360px;
     text-align: left;
     margin-left: 25%;
-    font-family: Lato;
 }
 .page-2 h2{
     top: 479px;
@@ -575,7 +569,7 @@ button span:nth-child(2){
 .content-page-5{
     margin-top: 214px;
     margin-left: 175px;
-    font-family: Lato;
+    
     font-weight: bold;
     line-height: 1.5;
     text-align: justify;
@@ -761,10 +755,9 @@ button span:nth-child(2){
     border-radius: 20px;
     top: 67px;
     left: -51px;
-
 }
 .information-student p{
-    font-family: Lato;
+    
     font-size: 16px;
     line-height: 1.5;
     text-align: justify;
@@ -775,7 +768,7 @@ button span:nth-child(2){
 }
 .name{
     font-size: 16px;
-    font-family: Lato;
+    
     font-style: italic;
     text-transform: uppercase;
     letter-spacing: 0.2px;
@@ -787,7 +780,6 @@ button span:nth-child(2){
 .point{
     font-size: 14px;
     font-style: italic;
-    font-family: Lato;
     letter-spacing: 0.2px;
     text-align: left;
     color: #000000;
@@ -832,7 +824,6 @@ button span:nth-child(2){
     margin-left: 50px;
     margin-top: 20px;
     padding-left: 45px;
-    font-family: Lato;
     border-radius: 100px;
     background-color: #ffffff;
     border: 1px solid #00bcd4;
@@ -844,7 +835,6 @@ button span:nth-child(2){
     margin-top: 20px;
     padding-left: 45px;
     padding-top: 20px;
-    font-family: Lato;
     border-radius: 25px;
     background-color: #ffffff;
     border: 1px solid #00bcd4;
@@ -902,7 +892,6 @@ button span:nth-child(2){
     letter-spacing: 0.3px;
     margin-bottom: 24px;
     text-align: left;
-    font-family: Lato;
     color: white;
     text-transform: uppercase;
 }
@@ -910,7 +899,6 @@ button span:nth-child(2){
     margin-left:-33%;
     list-style-type: none;
     margin-top: 20px;
-    font-family: Lato;
     font-size: 16px;
     text-align: left;
 }
