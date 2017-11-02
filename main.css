@@ -199,7 +199,7 @@ button span:nth-child(2){
     margin-top: 92px;
 }
 .lleft-page-1{
-    min-width: 268px;
+    max-width: 268px;
     height: 100%;
     float: left;
 }
