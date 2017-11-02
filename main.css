@@ -14,6 +14,9 @@ body{
     margin: 0;
     padding: 0;
     font-family: Lato;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-weight: bold;
 }
 a {
     text-decoration: none;
@@ -71,7 +74,7 @@ button{
     text-align: center;
 }
 button span{
-    font-size: 14px;
+    
 }
 button span:nth-child(2){
     margin-left: -8.9px;
@@ -112,11 +115,7 @@ button span:nth-child(2){
 .menu li{
     float: left;
     list-style-type: none;
-    text-align: left;
     margin-left: 47px;
-    
-    font-size: 14px;
-    letter-spacing: 0.2px;
     text-align: center;
     color: #673ab7;
 }
@@ -128,19 +127,16 @@ button span:nth-child(2){
     float: left;
 }
 .right-header a{
-    font-size:14px;
-    letter-spacing: 0.2px;
     text-align: center;
     color: #00bcd4;
 }
 .login{
-    float: left;
+    float: right;
     width: 125px;
     height: 40px;
     margin-top: 20px;
-    margin-left: 70%;
+    margin-right: 18%;
     text-align: center;
-    font-size: 14px;
     color: #00bcd4;
     background-color: rgba(0,0,0,0);
     border: none;
@@ -151,8 +147,6 @@ button span:nth-child(2){
     text-transform: uppercase;
 }
 .login a{
-    font-size:14px;
-    letter-spacing: 0.2px;
     margin-top: -100px;
     text-align: left;
     color: #00bcd4;
@@ -161,13 +155,11 @@ button span:nth-child(2){
     color: white;
 }
 .register{
-    float: left;
     width: 125px;
     height: 40px;
     margin-top: -40px;
-    margin-left: 84%;
+    margin-left: -28%;
     text-align: center;
-    font-size: 14px;
     color: #00bcd4; 
     background-color: rgba(0,0,0,0);
     border: none;
@@ -235,7 +227,6 @@ button span:nth-child(2){
     max-width: 630px;
     font-family: VNFQuicksand-Bold;
     font-size:64px;
-    font-weight: bold;
     line-height: 1.13;
     text-align: left;
     color: #00bcd4;
@@ -265,10 +256,7 @@ button span:nth-child(2){
 .see-conti p span{
     height: 100%;
     padding-left: 15px;
-    font-size: 14px;
-    font-weight: bold;
     line-height: 1.14;
-    letter-spacing: 0.2px;
     text-align: justify;
     color: #673ab7;
 }
@@ -278,11 +266,7 @@ button span:nth-child(2){
     border-radius: 100px;
     border: none;
     color: white;
-    
-    font-size: 14px;
-    font-weight: bold;
     line-height: 1.14;
-    letter-spacing: 0.2px;
 }
 .decoration.blue.rright1-page-1{
     width: 88px;
@@ -351,11 +335,7 @@ button span:nth-child(2){
     border-radius: 100px;
     border: none;
     color: white;
-    
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 0.2px;
 }
 .decoration.blue.rightpage1{
     width: 60px;
@@ -387,9 +367,7 @@ button span:nth-child(2){
 .ti-help-alt{
     width: 15px;
     height: 14px;
-    font-size: 14px;
     padding-left: 12px;
-    letter-spacing: 0.2px;
     text-align: left;
     color: #ffffff;
 }
@@ -439,7 +417,6 @@ button span:nth-child(2){
     text-align: left;
     font-family: VNFQuicksand;
     font-size: 24px;
-    font-weight: bold;
     text-align: justify;
     color: #673ab7;
     float: left;
@@ -532,7 +509,7 @@ button span:nth-child(2){
     margin-top: 71px;
     font-family: VNFQuicksand;
     font-size: 24px;
-    font-weight: bold;
+    
     line-height: 1;
     color: #000000;
 }
@@ -569,16 +546,13 @@ button span:nth-child(2){
 .content-page-5{
     margin-top: 214px;
     margin-left: 175px;
-    
-    font-weight: bold;
     line-height: 1.5;
     text-align: justify;
     color: #000000;
     word-wrap: break-word;
-
 }
 .content-page-5 span{
-    font-weight: bold;
+    
     text-align: left;
     font-size: 36px;
     font-family: VNFQuicksand;
@@ -757,30 +731,24 @@ button span:nth-child(2){
     left: -51px;
 }
 .information-student p{
-    
     font-size: 16px;
     line-height: 1.5;
     text-align: justify;
     color: #000000;
-    font-weight: bold;
     padding: 40px;
     padding-top: 40px;
 }
 .name{
     font-size: 16px;
-    
     font-style: italic;
     text-transform: uppercase;
-    letter-spacing: 0.2px;
     text-align: left;
     color: #000000;
     float: right;
     margin-right: 170px;
 }
 .point{
-    font-size: 14px;
     font-style: italic;
-    letter-spacing: 0.2px;
     text-align: left;
     color: #000000;
     float: right;
@@ -800,7 +768,6 @@ button span:nth-child(2){
     font-family: VNFQuicksand;
     font-size: 36px;
     margin-top: 220px;
-    font-weight: bold;
     text-align: left;
     color: #00bcd4;
 }
@@ -908,7 +875,7 @@ button span:nth-child(2){
 .privacy-terms-setting{
     margin-top:70px;
     color: white;
-    font-size: 14px;
+    
 }
 .privacy-terms-setting a{
     margin-right: 38px;
