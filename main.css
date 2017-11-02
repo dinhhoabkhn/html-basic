@@ -6,6 +6,10 @@
     font-family: VNFQuicksand;
     src: url('../Quicksand/Quicksand-Regular.ttf');
 }
+@font-face{
+    font-family: VNFQuicksand-bold;
+    src: url('../Quicksand/Quicksand-Bold.ttf');
+}
 body{
     margin: 0;
     padding: 0;
@@ -64,6 +68,9 @@ a {
 button{
     cursor: pointer;
     text-align: center;
+}
+button span{
+    font-size: 14px;
 }
 button span:nth-child(2){
     margin-left: -8.9px;
@@ -160,7 +167,7 @@ button span:nth-child(2){
     width: 125px;
     height: 40px;
     margin-top: -40px;
-    margin-left: 85%;
+    margin-left: 84%;
     text-align: center;
     font-family: Lato;
     font-size: 14px;
@@ -178,14 +185,12 @@ button span:nth-child(2){
 .register:hover a{
     color: white;
 }
-.search{
-    margin-top: 7px;
-    margin-left: 18px;
+.ti-search{
     color: #673ab7;
-}
-.search span{
-    font-size: 20px;
-    font-weight: bolder;
+    font-size: 18px;
+    position: absolute;
+    top: 32px;
+    right: 15px;
 }
 .content-page-1{
     width: 100%;
@@ -198,7 +203,7 @@ button span:nth-child(2){
     float: left;
     margin-top: 92px;
 }
-.lleft-page-1{
+.left-left-page-1{
     max-width: 268px;
     height: 100%;
     float: left;
@@ -217,7 +222,7 @@ button span:nth-child(2){
     border-radius: 20px;
     float: right;
 }
-.rleft-page-1{
+.right-left-page-1{
     width: 690px;
     height: 100%;
     margin-left: 268px;
@@ -231,7 +236,7 @@ button span:nth-child(2){
     margin-top: 68px;
     min-width: 572px;
     max-width: 630px;
-    font-family: VNFQuicksand;
+    font-family: VNFQuicksand-Bold;
     font-size:64px;
     font-weight: bold;
     line-height: 1.13;
@@ -247,7 +252,7 @@ button span:nth-child(2){
     text-align: justify;
     color: #673ab7;
 }
-.fill5{
+.list-button{
     height: 50px;
     margin-top: 45px;
     position: relative;
@@ -640,6 +645,7 @@ button span:nth-child(2){
     box-shadow: 20px 20px 50px 0 rgba(0, 0, 0, 0.2);
     transform: scale(1.3);
     cursor: pointer;
+    transition: 1000ms;
 }
 .decoration.pink.comment-top-1{
     position: absolute;
@@ -677,6 +683,7 @@ button span:nth-child(2){
     box-shadow: 20px 20px 50px 0 rgba(0, 0, 0, 0.2);
     transform: scale(1.2);
     cursor: pointer;
+    transition: 1000ms;
 }
 .decoration.yellow.comment-top-3{
     position: absolute;
@@ -710,6 +717,7 @@ button span:nth-child(2){
     box-shadow: 20px 20px 50px 0 rgba(0, 0, 0, 0.2);
     transform: scale(1.2);
     cursor: pointer;
+    transition: 1000ms;
 }
 .decoration.yellow.comment-top-2{
     position: absolute;
@@ -738,6 +746,7 @@ button span:nth-child(2){
     box-shadow: 20px 20px 50px 0 rgba(0, 0, 0, 0.2);
     transform: scale(1.2);
     cursor: pointer;
+    transition: 1000ms;
 }
 .decoration.green.comment-top-4{
     position: absolute;
