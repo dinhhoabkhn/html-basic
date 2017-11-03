@@ -1,14 +1,14 @@
 @font-face{
     font-family: Lato;
-    src: url('../FontLato/Lato-Regular.ttf');
+    src: url('FontLato/Lato-Regular.ttf');
 }
 @font-face{
-    font-family: VNFQuicksand;
-    src: url('../Quicksand/Quicksand-Regular.ttf');
+    font-family: VNFQuicFbackksand;
+    src: url('Quicksand/Quicksand-Regular.ttf');
 }
 @font-face{
     font-family: VNFQuicksand-bold;
-    src: url('../Quicksand/Quicksand-Bold.ttf');
+    src: url('Quicksand/Quicksand-Bold.ttf');
 }
 body{
     margin: 0;
@@ -289,7 +289,7 @@ button span:nth-child(2){
     position: relative;
     width: 50%;
     height: 100%;
-    background-image: url("../image/slide-section1.jpg");
+    background-image: url("image/slide-section1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     float: right;
