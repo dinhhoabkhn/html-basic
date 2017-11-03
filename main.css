@@ -79,6 +79,8 @@ button span:nth-child(2){
 .page-1{
     width: 100%;
     height: 100vh;
+    position: relative;
+    z-index: 10;
 }
 .header{
     width: 100%;
@@ -114,6 +116,7 @@ button span:nth-child(2){
     margin-left: 47px;
     text-align: center;
     color: #673ab7;
+    font-weight: normal;
 }
 
 .right-header {
@@ -196,7 +199,7 @@ button span:nth-child(2){
 .decoration.blue.top-left-page-1{
     width: 76px;
     margin-top: 200px;
-    margin-right: 0px;
+    margin-right: 0;
     border-radius: 20px;
     float: right;
 }
@@ -248,8 +251,11 @@ button span:nth-child(2){
     margin-right: 22px;
     background-color: #ffffff;
     border: solid 2px #673ab7;
+    color: #673ab7;
+    font-family: Lato;
+    font-weight: bold;
 }
-.see-conti p span{
+.see-conti span{
     height: 100%;
     padding-left: 15px;
     line-height: 1.14;
@@ -259,30 +265,35 @@ button span:nth-child(2){
 .register-test{
     width: 193px;
     height: 50px;
+    font-family: Lato;
+    font-weight: bold;
     border-radius: 100px;
     border: none;
     color: white;
     line-height: 1.14;
 }
+.register-test span:first-child{
+    margin-left: 15px;
+}
 .decoration.blue.rright1-page-1{
     width: 88px;
     position: absolute;
-    top: 440px;
-    left: 770px;
+    top: 454px;
+    left: 797px;
     border-radius: 20px;
 }
 .decoration.red.rright2-page-1{
     width: 28px;
     position: absolute;
-    top: 470px;
-    left: 730px;
+    top: 487px;
+    left: 737px;
     border-radius: 20px;
 }
 .decoration.yellow.rright3-page-1{
     width: 75px;
     position: absolute;
-    top: 470px;
-    left: 760px;
+    top: 487px;
+    left: 778px;
     border-radius: 20px;
 }
 .right-page-1{
@@ -363,9 +374,9 @@ button span:nth-child(2){
 .ti-help-alt{
     width: 15px;
     height: 14px;
-    padding-left: 12px;
     text-align: left;
     color: #ffffff;
+    padding-left: 10px;
 }
 .page-2{
     width: 100%;
@@ -411,7 +422,7 @@ button span:nth-child(2){
     width: 40%;
     height: 100%;
     text-align: left;
-    font-family: VNFQuicksand;
+    font-family: VNFQuicksand-Bold;
     font-size: 24px;
     text-align: justify;
     color: #673ab7;
@@ -503,9 +514,8 @@ button span:nth-child(2){
 .text-circle{
     text-align: center;
     margin-top: 71px;
-    font-family: VNFQuicksand;
+    font-family: VNFQuicksand-Bold;
     font-size: 24px;
-    
     line-height: 1;
     color: #000000;
 }
@@ -548,10 +558,9 @@ button span:nth-child(2){
     word-wrap: break-word;
 }
 .content-page-5 span{
-    
     text-align: left;
     font-size: 36px;
-    font-family: VNFQuicksand;
+    font-family: VNFQuicksand-Bold;
 }
 .content-page-5 span:first-of-type{
     color: #00bcd4;
@@ -599,7 +608,7 @@ button span:nth-child(2){
 .comment-1{
     max-width: 70%;
     margin-left: 20%;
-    max-height: 35%;
+    max-height: 40%;
     margin-top: 10%;
     border-radius: 30px;
     background-color: white;
@@ -607,7 +616,7 @@ button span:nth-child(2){
 }
 .comment-1:hover{
     box-shadow: 20px 20px 50px 0 rgba(0, 0, 0, 0.2);
-    transform: scale(1.3);
+    transform: scale(1.15);
     cursor: pointer;
     transition: 1000ms;
 }
@@ -638,7 +647,7 @@ button span:nth-child(2){
     max-width: 70%;
     margin-left: 20%;
     max-height: 35%;
-    margin-top: 10%;
+    margin-top: 15%;
     border-radius: 30px;
     background-color: white;
     position: relative;
@@ -731,10 +740,10 @@ button span:nth-child(2){
     line-height: 1.5;
     text-align: justify;
     color: #000000;
-    padding: 40px;
-    padding-top: 40px;
+    padding: 40px 40px 70px 40px;
 }
 .name{
+    margin-top: 28px;
     font-size: 16px;
     font-style: italic;
     text-transform: uppercase;
@@ -761,11 +770,25 @@ button span:nth-child(2){
     position: relative;
 
 }.left-page-7 h2{
-    font-family: VNFQuicksand;
+    font-family: VNFQuicksand-Bold;
     font-size: 36px;
     margin-top: 220px;
     text-align: left;
     color: #00bcd4;
+}
+.decoration.blue.page7{
+    width: 100px;
+    border-radius: 20px;
+    position: absolute;
+    top: 237px;
+    right: 295px;
+}
+.decoration.pink.page7{
+    width: 21px;
+    border-radius: 20px;
+    position: absolute;
+    top: 237px;
+    right: 256px;
 }
 .left-page-7 form{
     margin-left: -50px;
@@ -790,6 +813,7 @@ button span:nth-child(2){
     border-radius: 100px;
     background-color: #ffffff;
     border: 1px solid #00bcd4;
+    font-family: Lato;
 }
 .left-page-7 textarea{
     outline: none;
@@ -801,14 +825,15 @@ button span:nth-child(2){
     border-radius: 25px;
     background-color: #ffffff;
     border: 1px solid #00bcd4;
+    font-family: Lato;
 }
 .left-page-7 input:focus{
     box-shadow: 0 0 5px 0 #673ab7;
-    border: solid 2px  #673ab7;
+    border: solid 1px  #673ab7;
 }
 .left-page-7 textarea:focus{
     box-shadow: 0 0 5px 0 #673ab7;
-    border: 2px solid #673ab7;
+    border: 1px solid #673ab7;
 }
 .register-test.blue.page7{
     margin-top: 30px;
@@ -820,6 +845,8 @@ button span:nth-child(2){
     height: 100vh;
     background-color: #00bcd4;
     color: white;
+    position: relative;
+    z-index: 100;
 }
 .white-logo{
     height: 380px;
@@ -894,4 +921,27 @@ button span:nth-child(2){
     width: 960px;
     height: 950px; 
     border: none;
+}
+.ti-mouse-alt{
+    width: 22px;
+    position: absolute;
+    left: 17px;
+    bottom: 88px;
+}
+.ti-angle-double-down{
+    position: absolute;
+    left: 17px;
+    bottom: 75px;
+}
+.up-page{
+    position: fixed;
+    left: 15px;
+    bottom: 100px;
+    z-index: 5;
+}
+.up-page span{
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
 }
